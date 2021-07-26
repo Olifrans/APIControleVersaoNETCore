@@ -8,8 +8,11 @@ namespace APIControleVersaoNETCore.Models
     public class Produto
     {
         public int Id { get; set; }
+
         public string Nome { get; set; }
+
         public string EndereçoArmazem { get; set; }
+
         public int Quatidade { get; set; }
     }
 }
